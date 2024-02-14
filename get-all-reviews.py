@@ -25,9 +25,6 @@ def sleep(mini=0, maxi=1000):
     howMuch = random.uniform(mini, maxi)
     tm.sleep(20 + howMuch / 1000)
 
-def csw_write(row):
-    return
-
 months = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"]
 
 def get_num_of_month_from_str(month):
